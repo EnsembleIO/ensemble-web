@@ -1,0 +1,410 @@
+/* RESET GENERAL */
+
+* {
+	font-family: Helvetica,Arial,FreeSans,sans-serif;
+}
+
+.droite {
+	text-align: left !important;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+label {
+	color: black;
+	font-weight: normal;
+}
+
+td {
+	vertical-align : middle;
+}
+
+/* --- CHAMP SAISIE --- */
+
+.calendrier { 
+	background-color: transparent;
+	background-image: url('../images/biblicnam/champsaisie/btn_calendrier.gif');
+	background-repeat: no-repeat;
+	background-position : right bottom;
+	border-bottom: none;
+}
+
+.calendrier:hover{
+	background-color: transparent;
+	background-image: url('../images/biblicnam/champsaisie/btn_calendrier_survol.gif');
+	background-repeat: no-repeat;
+	background-position : right bottom;
+	border-bottom: none;
+}
+
+.datepicker {
+	border-color: #5999c9;
+}
+
+.datepicker .selected {
+	background-color: #5999c9 !important;
+}
+
+.datepicker .current {
+	background-color: #E0F0FF !important;
+}
+
+.titre_navigation_mois, .titre_navigation_annee {
+	background-color: #FFD9DF;
+}
+
+.titre_navigation_annee_prec, .titre_navigation_mois_prec {
+	background-image: url('../images/biblicnam/interPage/btn_precedent.gif');
+	background-position: left;
+}
+
+.titre_navigation_annee_prec:hover, .titre_navigation_mois_prec:hover {
+	background-image: url('../images/biblicnam/interPage/btn_precedent_survol.gif');
+	background-position: left;
+}
+
+.titre_navigation_annee_suiv, .titre_navigation_mois_suiv {
+	background-image: url('../images/biblicnam/interPage/btn_suivant.gif');
+	background-position: right;
+}
+
+.titre_navigation_annee_suiv:hover, .titre_navigation_mois_suiv:hover {
+	background-image: url('../images/biblicnam/interPage/btn_suivant_survol.gif');
+	background-position: right;
+}
+
+.titre_aujourdhui {
+	color: #b75190;
+	text-decoration: none;
+	border-bottom: 1px dotted #b75190;
+}
+
+.titre_aujourdhui:hover {
+	color: #b75190;
+	text-decoration: none;
+	border-bottom: 1px solid #b75190;
+}
+
+.erreur {
+	background: transparent url('../../../../biblicnam/images/champsaisie/picto_erreur.gif') no-repeat left;
+	width: 21px;
+	height: 20px;
+	margin-left: 10px;
+ 	margin-right: 5px;
+	margin-top: 10px;
+	float: right;
+	border-bottom: none;	
+}
+
+.erreur:hover {
+	border-bottom: none;	
+}
+
+ .aide, .listesupp {
+	margin-left:5px;
+	 margin-right: 5px;
+	 vertical-align: middle;
+	 padding-left: 0;
+}
+
+.zone_champ_saisie .aide {
+	display: none;
+	background: transparent url('../images/biblicnam/champsaisie/picto_aide.gif') no-repeat;
+	border-bottom: none; 
+}
+
+.zone_champ_saisie .aide:hover {
+	background: transparent url('../images/biblicnam/champsaisie/picto_aide_survol.gif') no-repeat;
+	border-bottom: none;  
+}
+
+.zone_champ_saisie input,select{
+	border: solid 1px #B75190;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	font-size: 1em;	
+}
+
+span.obligatoire {
+	color: #0B57AD;
+	vertical-align: middle;
+}
+
+/* --- ERREUR SAISIE --- */
+
+.message_erreur {
+	color: #BB0F00;
+
+}
+
+/* --- TABLEAU --- */
+
+table {
+	border-collapse : separate;
+	border-spacing: 5px;
+}
+
+.tableau { 
+	background-color: #F1F1F1;
+	margin-bottom: 3px;
+	line-height: 1.363em;
+	border-spacing: 0px;
+	border-collapse: separate;	
+}
+
+.tab-body table {
+	table-layout: fixed;
+	cellpadding:0;
+	cellspacing:0;
+	border-collapse : separate;
+	border : 1px solid #0062AD;
+	border-radius : 10px;
+}
+	
+.tab-footer{
+	height : 15px;
+	background-color: #FFFFFF;
+	}
+
+table .premier {
+	padding-left: 10px;
+	border-left: none;
+	}
+
+.pair 	{ background: #FFFFFF;
+	min-height: 30px;
+	max-height: 30px;
+	line-height: 10px;
+}	
+
+.vue-detail {
+	background: transparent url('../../../../biblicnam/images/table/btn_vuedetail.gif') no-repeat; 
+	width: 30px; height: 30px; 
+	display: inline-block;
+	border-bottom : none;	
+	}
+.vue-detail:hover {
+	background: transparent url('../../../../biblicnam/images/table/btn_vuedetail_survol.gif') no-repeat;
+	border-bottom : none;	 
+	}
+		
+
+.tableau td {
+	 height: 30px;
+	 vertical-align: middle;
+	 text-align: left;
+	 padding: 0 15px 0 15px;
+	 text-overflow: hidden;
+	 white-space: nowrap;
+	}
+
+.tableau th:first-child { 
+	border-radius: 10px 0 0 0;
+}
+
+.tableau tr:last-child td:first-child { 
+	border-radius: 0 0 0 10px;
+}
+
+.tableau th:last-child a { 
+	border-radius: 0px 10px 0 0;
+}
+
+.tableau th:last-child { 
+	border-radius: 0px 10px 0 0;
+}
+
+.tableau tr:last-child td:last-child { 
+	border-radius: 0px 0 10px 0;
+}
+
+.tableau th { 
+	background: #E0F0FF; 
+	vertical-align: middle;
+	font-weight: normal; 
+	text-align: left;
+	color: #0062AD;	
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+	width: inherit;
+}
+
+.tableau td {
+	border-left: 1px solid #E0F0FF;
+	color: #000;
+}
+
+.tableau .triable {
+	padding: 0 15px 0 0px;
+	}
+
+.tableau th a { 
+	color: #0062AD;
+	display: block; 
+	display: table-cell; 
+	vertical-align: middle;
+	min-height: 30px;
+	line-height: 14px;
+	padding-left: 15px;
+	width: inherit;
+	border-bottom: none;
+	padding-right: 0;
+}
+
+.tableau th.triable
+{
+	padding: 0;
+}
+
+.tableau .tri a { 
+	color: #0062AD;
+	background: url(../images/biblicnam/table/picto_tri.gif) #E0F0FF 1px center no-repeat;
+	border-bottom: none;
+}
+
+.tableau .tri {
+	background: url(../images/biblicnam/table/picto_tri.gif) #E0F0FF 1px center no-repeat;	
+}
+
+.tableau .tri-asc a {
+	background: url(../images/biblicnam/table/picto_tri_asc.gif) #E0F0FF 1px center no-repeat;
+	background-color: #E0F0FF;
+}
+
+.tableau .tri-desc a {
+	background: url(../images/biblicnam/table/picto_tri_desc.gif) #E0F0FF 1px center no-repeat;
+	background-color: #E0F0FF;
+}
+
+.tableau th a:hover { 
+	color: #0062AD;
+	background: url(../images/biblicnam/table/picto_tri_survol.gif) #E0F0FF 1px center no-repeat;
+	border-bottom: none;
+}
+
+.tableau th:last-child a:hover { 
+	color: #0062AD;
+	background: url(../images/biblicnam/table/picto_tri_survol.gif) #E0F0FF 1px center no-repeat;
+	border-radius: 0 10px 0 0;
+}
+
+.tableau td.center
+{
+	text-align: center;
+	padding:0;
+}
+
+.tab-interpage, .tab-interpagebas{
+	background-color:#FFF; 
+}
+	
+.tab-interpage {
+	display: none;
+}
+
+/* --- RESULTAT DE RECHERCHE --- */	
+
+.resultat {
+	padding-left: 13px;
+}
+
+/* --- NAVIGATION INTERPAGE --- */
+
+.navigation-interpage .page {
+	text-decoration: none;
+	min-width: 1em; 
+	}	
+.navigation-interpage .dernier{
+	width: auto;
+	margin-left: 5px;
+	}
+.page {
+	display: inline-block;
+	text-align: center;
+	width: auto; height: 15px;
+	line-height: 15px;
+	margin:  0 3px;		
+	}	
+.navigation-interpage .precedent,
+.navigation-interpage .precedentinactif,
+.navigation-interpage .suivantinactif,
+.navigation-interpage .suivant { 
+	width: 15px; height: 15px;
+	display: block;
+	border-bottom: none;	
+	}		
+.navigation-interpage .courant { 
+	background: #FFE0F0;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+.invisible{	
+	position: absolute !important;
+	top: -2000px !important;
+	left: -2000px !important;
+	display: block !important;
+	width: 0 !important;
+	height: 0 !important;
+	line-height: 0 !important;	
+}
+
+.precedent { 
+	background: url("../images/biblicnam/interPage/btn_precedent.gif") no-repeat;
+	margin:  0 15px 0 0px;
+}
+.suivant { 
+	background: url("../images/biblicnam/interPage/btn_suivant.gif") no-repeat;
+	margin:  0 0px 0 15px;
+}
+a:hover.precedent { 
+	background: url("../images/biblicnam/interPage/btn_precedent_survol.gif") no-repeat;
+}
+a:hover.suivant { 
+	background: url("../images/biblicnam/interPage/btn_suivant_survol.gif") no-repeat;
+}
+
+/* FENETRE MODALE */
+
+.popbg {
+	background-color : #357BB1;
+	opacity: 0.75;
+}
+
+.popup {
+	border-radius: 10px;
+	border-bottom: none;
+	padding: 20px;
+	width: 500px;
+}
+
+.popup h2 {
+	margin:0;
+}
+
+.popup h2 a {
+	background-color: #FFFFFF;
+	background-image: url("../images/refonte/header/icone_deconnecter.gif");
+	background-position: right center;
+	color: #B75190;
+	border-bottom : none;
+	padding:0;
+}
+
+.popup h2 a:hover {
+	color: #B75190;
+	border-bottom : none;
+}
+
+.cnamts-hidden {
+	display: none;
+}
+
+.tip-text {
+	border-color: #0062AD;
+}
+

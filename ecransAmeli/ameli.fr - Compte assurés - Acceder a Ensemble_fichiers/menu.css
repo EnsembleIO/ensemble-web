@@ -1,0 +1,112 @@
+/*
+    This file contains menu-related styling for the "bighorn" skin.  Both single- and multi-level menus make
+    extensive use of the :hover pseudo-class.
+    
+    Multilevel menus make extensive use of descendant and child selectors, as well as the the :hover pseudo-class
+    to control visibility, positioning and the form of menu items in various menu levels.
+*/
+
+.wlp-bighorn-menu
+{
+	position: relative;
+	z-index: 10;
+}
+
+.wlp-bighorn-menu a
+{
+    border-bottom: none;
+}
+
+.wlp-bighorn-menu a:hover
+{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.wlp-bighorn-menu-menu-panel ul li a
+{
+    padding: 0 30px;
+}
+
+.wlp-bighorn-menu-menu-panel ul li a
+{
+    border-right: 1px solid;
+    padding-top: 0;
+    padding-bottom: 1px;
+    line-height: 16px;
+}
+
+.wlp-bighorn-menu-menu-panel ul li ul li a
+{
+    padding: 0 60px 0 29px;
+    border-right: 0;
+    display: block;
+    line-height: 1.75em;  
+}
+
+.wlp-bighorn-menu-button-panel
+{
+    text-align: right;
+}
+
+.wlp-bighorn-menu-menu-panel ul
+{
+    margin: 0 4px;
+    padding: 0;
+    border-bottom: solid 3px;
+    position: relative;
+}
+
+.wlp-bighorn-menu-menu-panel > ul > li {
+	border-radius : 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+}
+
+.wlp-bighorn-menu-menu-panel ul li
+{
+	margin-right: -1px;
+    cursor: default;
+    display: inline-block;
+    list-style-type: none;
+    padding: 6px 0px 5px;
+}
+
+
+.wlp-bighorn-menu-menu-panel ul li.wlp-bighorn-menu-active
+{
+    cursor: default;
+}
+
+.wlp-bighorn-menu-menu-panel ul li:hover ul
+{
+    display: block;
+    visibility: visible;
+}
+
+.wlp-bighorn-menu-menu-panel ul li.last ul
+{
+    right: 0px;
+}
+
+.wlp-bighorn-menu-menu-panel ul ul
+{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+    top: 100%; /*27px;*/ /*2.15em;*/
+    padding: 5px 0px 10px;
+    margin: 0;
+    border: 3px solid;
+    border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+}
+
+.wlp-bighorn-menu-menu-panel ul ul li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}

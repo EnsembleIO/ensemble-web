@@ -1,0 +1,131 @@
+/*
+    This file contains window-related styles for the "bighorn" skin.  This includes titlebars, titlebar button
+    rollovers and window content.
+    
+    Note that this styling includes window content overflow handling.  See below for specific notes.
+*/
+
+/* styles for titlebars */
+
+.wlp-bighorn-page-unconnect .wlp-bighorn-titlebar{
+	width: auto;
+}
+
+.wlp-bighorn-titlebar
+{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-variant: small-caps; 
+    overflow: hidden;
+    border-bottom: 1px solid;
+    padding-left: 25px;
+    position: relative;
+    left: -25px;
+    width: 680px;
+}
+
+.wlp-bighorn-titlebar div
+{
+    /* white-space: nowrap; */
+    /* padding: 2px; */
+}
+
+.wlp-bighorn-titlebar img
+{
+    border: 0;
+}
+
+.wlp-bighorn-titlebar-window-icon,
+.wlp-bighorn-titlebar-title-panel
+{
+    float: left;
+    margin: 0.4em 1em 0 0;
+    font-size: 1.0em;
+    font-variant: small-caps;
+}
+
+.wlp-bighorn-titlebar-button-panel
+{
+    float: right;
+}
+
+.wlp-bighorn-titlebar-button-panel a
+{
+    vertical-align: middle;
+}
+
+/* styles for image rollovers (titlebar buttons) */
+
+.wlp-bighorn-titlebar-button-panel a:hover > img.wlp-bighorn-image-rollover
+{
+    display: inline;
+}
+
+.wlp-bighorn-titlebar-button-panel a:hover > img.wlp-bighorn-image-nonrollover
+{
+    display: none;
+}
+
+/* styles for windows */
+
+.wlp-bighorn-layout-cell .wlp-bighorn-book
+{
+    border-style: solid;
+    border-width: 1px;
+    margin: 8px;
+    height: 100%;
+}
+
+#as_vos_demandes_page .wlp-bighorn-layout {
+	width: 900px;
+	float:left;
+	margin: 1.1em 0 0 0;
+}
+
+#as_vos_demandes_page .wlp-bighorn-layout-cell {
+	float:left;	
+}
+
+#as_accueil_page .wlp-bighorn-layout {
+	/*width: 700px;*/
+	float:left;	
+}
+
+#messageperso_1, #msp_1, .logout{
+	margin-right: 30px;
+}
+
+.wlp-bighorn-page
+{
+    /*padding: 1px;*/
+    height: 100%;
+}
+/*
+.wlp-bighorn-window
+{
+    border-style: solid;
+    border-width: 1px;
+    margin: 8px;
+}
+*/
+/*
+    The following style applies to window content that overflows the specified portlet width. If you want to
+    change this behavior for ALL of your portlets, set the appropriate value for the overflow style here.
+    If you want to change this behavior for a SPECIFIC portlet, add the appropriate overflow style to that
+    portlet's Content Presentation Style attribute. See the Portlet Development Guide for more information 
+    and examples.
+*/
+/*
+.wlp-bighorn-window-content
+{
+    overflow: auto;
+    width: 100%;
+}
+*/
+/* styles for async content portlets */
+
+.wlp-bighorn-window-content-only
+{
+    border: 0;
+    margin: 0;
+}

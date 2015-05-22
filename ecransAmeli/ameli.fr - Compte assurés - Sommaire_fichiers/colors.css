@@ -1,0 +1,256 @@
+/* --- STYLES DE BASE --- */
+/* Tentative d'uniformisation entre les navigateur */
+
+/* Page */
+html {
+  font-size: 100%; /* Évite un bug d'IE 6-7. (1) */
+  background-color: #D2D2D2;
+}
+body {
+  margin: 0;
+  padding: 0; /* 1em; /* Remettre à zéro si nécessaire. */
+  /* Pensez à utiliser une collection de polices (2), par ex: */
+  font-family: Helvetica, Arial, FreeSans, sans-serif;
+  font-size: .8em; /* À adapter pour la police choisie. (3) */
+  /*line-height: 1.3; /* 1.4 À adapter au design. (4) */
+  color: black;
+  background: white;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 .5em 0;  /*Rapproche le titre du texte. (5) */
+  font-weight: bold; /* Valeur par défaut. (6) */
+  font-style: normal;
+}
+h1 {
+  font-size: 1.75em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.1em; /* 1.25em */
+}
+h4 {
+  font-size: 1em;
+}
+
+/* Listes */
+ul, ol {
+  margin: 0; 
+  padding: 0;
+}
+
+#colcentre ul, #colcentre ol, .centrepage ul, .centrepage ul{
+	margin: .75em 0 .75em 32px;
+}
+
+/* Paragraphes */
+p {
+  margin: .75em 0; /* Marges plus faibles que par défaut. (7) */
+}
+address {
+  margin: .75em 0;
+  font-style: normal;
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: #0062ad;
+  cursor: pointer;
+  border-bottom: dotted 1px;
+}
+/*a:link {
+  color: #11C;
+}
+a:visited {
+  color: #339;
+}*/
+a:hover { /* A étudier pour la navigation au clavier : a:focus, a:active */
+  text-decoration: none;
+  border-bottom: solid 1px;
+  color: #0062ad;
+}
+
+/* Pas de bordure autour des images dans les liens */
+a img {
+  border: none;
+}
+
+/* Divers éléments de type en-ligne (8) */
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+
+/* Formulaires */
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+}
+input, button, select {
+  vertical-align: middle; /* Solution pb. d'alignement. (9) */
+  font-family: Helvetica, Arial, FreeSans, sans-serif;
+}
+/*
+input, select, textarea, button{
+    font-size: 100%;
+}
+*/
+/* --- FIN STYLES DE BASE --- */
+
+
+
+/*
+    This file contains all colors (and fonts) used by the "bighorn" skin.  Descendant selectors are used
+    primarily for nesting and rollover scenarios.
+*/
+
+
+#nom_assure, .logout{
+    color: #C84294; /* rose */
+    font-weight: bold;
+}
+
+.logdate{
+    color: #0062AD; /* bleu foncé (bug IE6 sur ce commentaire !?) */
+}
+
+.date{
+	color: black;
+}
+
+.dateJ{
+	color: black;
+	text-transform: capitalize;
+}
+
+.wlp-bighorn-header
+{
+    border-bottom-color: #807059;
+}
+
+.wlp-bighorn-footer
+{
+    border-top-color: #807059;
+}
+
+/* colors for windows */
+
+.wlp-bighorn-titlebar
+{
+    /*background-color: #596380;*/
+    color: #0062AD; /* bleu foncé  */
+}
+
+.wlp-bighorn-titlebar-button-panel a:hover
+{
+    background-color: #727EA3;
+}
+
+.wlp-bighorn-book-content
+{
+    /* background-color: white; */
+}
+
+.wlp-bighorn-window
+{
+    border-color: #807059;
+}
+
+.wlp-bighorn-window-content
+{
+    /* background-color: white; */
+}
+
+.wlp-bighorn-layout-cell .wlp-bighorn-book
+{
+    border-color: #807059;
+}
+
+/* colors for menus */
+
+.wlp-bighorn-menu
+{
+    color: #0062AD; /* bleu foncé  */
+    font-weight: bold;
+}
+
+.wlp-bighorn-menu a
+{
+    color: #0062AD; /* bleu foncé  */
+}
+
+.wlp-bighorn-menu ul ul a
+{
+    color: #EEF5F9; /* bleu pale */
+    font-size: 0.9em;
+}
+
+.wlp-bighorn-menu-menu-panel ul
+{
+    background-color: white;
+    border-color: #0062AD; /* bleu foncé  */
+}
+
+.wlp-bighorn-menu-menu-panel ul ul
+{
+    background-color: white;
+    color: #0062AD; /* bleu foncé  */
+}
+
+.wlp-bighorn-menu-menu-panel > ul > li:hover
+{
+    background-color: #0062AD; /* bleu foncé  */
+    color: #EEF5F9; /* bleu pale */
+}
+
+.wlp-bighorn-menu-menu-panel ul li:hover a,
+.wlp-bighorn-menu-menu-panel ul li.wlp-bighorn-menu-active,
+.wlp-bighorn-menu-menu-panel ul li.wlp-bighorn-menu-active a
+{
+    background-color: #0062AD; /* bleu foncé  */
+    border-color: #0062AD; /* bleu foncé  */
+    color: #EEF5F9; /* bleu pale */
+}
+
+.wlp-bighorn-menu-menu-panel ul li:hover ul li a
+{
+    background-color: white;
+    border-color: #0062AD; /* bleu foncé  */
+    color: #0062AD; /* bleu foncé  */
+} 
+
+.wlp-bighorn-menu-menu-panel ul li ul li:hover a
+{
+	color: #357BB1; /* bleu moyen */
+}
+
+/* colors for menus within nested books */
+
+.wlp-bighorn-book-content .wlp-bighorn-menu
+{
+    background-color: #727EA3;
+}
+
+.wlp-bighorn-book-content .wlp-bighorn-menu-menu-panel ul
+{
+    background-color: #727EA3;
+}
+
+.wlp-bighorn-book-content .wlp-bighorn-menu-menu-panel ul li:hover
+{
+    background-color: #6078BF;
+}
+
+.wlp-bighorn-book-content .wlp-bighorn-menu-menu-panel ul li.wlp-bighorn-menu-active
+{
+    background-color: #E6DCCF;
+    color: #596380;
+}

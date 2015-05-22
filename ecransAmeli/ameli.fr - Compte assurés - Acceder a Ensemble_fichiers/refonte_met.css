@@ -1,0 +1,22 @@
+/* Messages techniques */
+.r_met_bloc {
+	display: table;
+    /*padding-bottom: 30px;*/
+    margin-bottom: 15px;
+}
+
+.r_met_bloc img {
+	padding-right: 15px;
+}
+
+.r_met_bloc p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.r_met_bloc td {
+    display: table-cell;
+    vertical-align: middle;
+    color: #EE0000;
+    font-weight: bold;
+}

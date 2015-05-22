@@ -1,0 +1,493 @@
+/*largeur du padding à droite*/
+.wlp-bighorn-menu-menu-panel ul li ul li a
+{
+    padding-right: 50px; 
+}
+
+.wlp-bighorn-menu-menu-panel ul li a
+{
+    padding: 0 26px;
+}
+
+/*Taille des titres des blocs*/
+.r_acc_bloc h1 {
+	font-size: 1.25em;	
+}
+
+/*Taille de la police des liens dans les blocs*/
+.wlp-bighorn-menu ul ul a,
+.r_acc_bloc .bloc_sousrubrique li a,
+.r_msg_texte_accueil h1,
+.r_msg_texte_accueil a,
+.logdate{
+	font-size:12.8px;
+}
+.sousRubrique .lienService{
+	font-size:12.1px;
+}
+.baselinebleue{
+	font-size:11.8px;
+}
+
+.blocform .r_label_violet{
+	width:100px;
+}
+ 
+.r_label {
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top:10px;
+    font-weight: normal;
+}
+.r_acc_bloc .bloc_sousrubrique .lienAccueilSitemap {
+		font-size:12.1px;
+}
+.taille475{
+width: 475px;
+}
+.taille400{
+width: 400px;
+}
+
+.blocCriterePaie{
+	clear: both;
+    padding: 25px 80px 20px 60px;
+}
+.r_champ_moitie {
+	width: 48%;
+}
+.r_champ_right {
+	padding-top: 10px;
+}
+
+/*Prolonger la barre du titre jusqu'à la fin sur les pages de la rubrique messagerie */
+#as_messagerie_book .wlp-bighorn-titlebar{
+    width: 100%;
+}
+	
+ /*html body div#ameli_portal_book_2.wlp-bighorn-book div.wlp-bighorn-book-content div#as_paiement_book.wlp-bighorn-book div.wlp-bighorn-book-content div#as_releve_annuel_prestation_page.wlp-bighorn-page div.wlp-bighorn-layout div.wlp-bighorn-layout-cell div.wlp-bighorn-layout div.wlp-bighorn-layout-cell div#portletInstance_1.wlp-bighorn-window div.wlp-bighorn-window-content div#colcentre div.tab-box div.tab-body div.center table.tableau tbody tr.impair td.montant
+Tableau relevé annuel*/
+.tab-box td.montant {
+    padding-right: 70px;
+    text-align: right;
+}
+	
+/*Style pour les infos dans un cadre avec fond gris, Label noir, texte noir, titre bleu,*/
+.blocformfond,
+#as_declarer_naissance_page .blocformfond, #as_declarer_activite_page .blocformfond {	
+	background: #EEF5F9; /*#e6e6e6; /*#e6e6e6; /* #D2D2D2; /*#B75190; /* /*#E0F0FF;*/
+	padding: 5px;
+	padding-bottom : 20px;
+	margin: 20px 1px 10px 1px;
+	line-height: 1.5em;
+	border: solid 0px lightblue;
+	clear: both;
+}
+.blocformfond .consigne{
+	padding-right:15px ;
+	font-family: Trebuchet MS, Verdana, sans-serif;
+	font-size: 0.8em;
+	color: #0757AC;
+	white-space: normal;
+}
+.blocformfond h2{
+	color: #0062AD; /*#B75190; */
+	float: left;
+	margin-left:20px;
+	}
+.blocform label, .blocform .label {
+	text-align: right;
+	}
+.blocform .r_label {
+	width:170px;
+}
+	
+.blocformfond fieldset{
+	background:white;
+	/*background:#dae7ef url(../images/as/msp/bg/degrade.jpg) left 0 repeat-x;*/
+	border: 1px solid lightblue; /*#B75190; /*#B75190*/
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 20px 5px 20px;
+    padding: 0px 25px 5px 25px;
+}
+.blocformfond fieldset legend{
+	color: #0062AD; /*#B75190; /* /* /**/
+	font-size : 1.2em;
+	padding-left:10px;
+	padding-right:10px;
+	position : relative;
+	display:none;
+	}
+.bloc_coord{
+	 margin: 10px 20px 20px 20px;
+	 padding-left : 24px;
+	}
+/*Pour les blocs d'informations de rappel (recapitulatif, et confirmation)*/
+.blocformfond .bloc_infos,
+.bloc_infos_perso .bloc_infos{	
+	background: #EEF5F9; /*#e6e6e6; /*; /* /*#D2D2D2; /*#B75190; /* /*#E0F0FF;*/
+	padding: 0px 25px 5px 25px;
+	margin: 10px 20px 5px 20px;
+	line-height: 1.5em;
+	border: solid 1px #BBDAF6; /*#B75190; /**/
+	border-radius: 0px 0px 10px 10px;
+	clear: both;
+}
+
+/*Bloc pour avoir un formulaire aligné à gauche, champs prenant toute la place libre*/
+.grid {
+	 width: 100%; 
+	 display: table; 
+	 table-layout: auto; 
+	 padding-bottom : 10px;
+	 }
+.row { 
+ display: table-row; 
+ }
+label.cell { 
+	white-space: nowrap;
+	display: table-cell; }
+span.cell {
+	 width: 100%;
+	 display: table-cell;
+	  }
+span.cell input, span.cell select { 
+	width: 100%; 
+	}
+	
+/*Bloc de santé des enfants à droite*/
+/*.bloc_savoirPlus {
+	float: right;
+	width: 190px;
+	clear: right;
+	background: url(../images/as/pour_en_savoir_plus.png) no-repeat;
+	min-height: 138px;
+	padding: 10px 0px;
+    margin-top: -15px;
+    margin-bottom: 39px;
+}*/
+
+/*Question satisfaction*/
+.tdQuestSatiLeft50 {
+	width : 50%;
+	text-align :center;
+}
+
+.tdQuestSatiLeft80 {
+	width : 50%;
+}
+
+.tdQuestSatiLeft20 {
+	width : 20%;
+	text-align: left;
+}
+
+.tdQuestSatiRight20 {
+	width : 20%;
+	text-align: left;
+}
+
+.tab_form{
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+/*colonne_info_droite pour la page d'accueil*/
+
+#as_accueil_page .wlp-bighorn-layout{
+ float:none;
+}
+#as_accueil_page .colonne_info_droite_accueil {
+    margin-top: -23%;;
+    position: relative;
+    right: 1%;
+	float: right;
+	width: 190px;
+	clear: right;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+    padding: 10px 0px;
+    margin-bottom: 39px;
+}
+
+.r_acc_colonne_droite {
+	float:right;
+	width:188px;
+	margin-left:21px;
+	margin-bottom:10px;
+	word-wrap: break-word;
+}
+.r_acc_colonne_center{
+	float:left;
+	width:320px;
+}
+
+/*Bloc mes informations*/
+
+.r_acc_bloc_infos {
+	margin-bottom: 15px;
+	border: 2px #357BB1 solid;
+	border-radius: 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 186px;
+	background-color: white;
+}
+.r_acc_bloc_infos p{
+	margin : auto;
+	width: 170px;
+	word-break: keep-all;
+}
+.r_acc_bloc_infos p .adresse{
+	/*text-transform:lowercase;*/
+}
+.r_acc_bloc_infos .nom{
+	font-variant: small-caps;
+	margin-top:0.8em;
+	margin-bottom: 10px;
+	color: #0062AD;
+	font-weight: bold;
+	font-size: 1.15em;
+	text-align:center;
+	width:100%;
+}
+
+.r_acc_bloc_infos .acces{
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+    width: 170px;
+    text-align:center;
+}
+
+.r_acc_bloc_infos a {
+	color : #0062AD;
+	text-decoration : none;
+}
+
+.r_acc_bloc_infos a:hover {
+	text-decoration : none;
+}
+.r_acc_bloc_infos .email{
+	color: #C84294;
+   }
+ 
+.r_acc_bloc_infos .line{
+	margin-top:10px;
+	margin-bottom:10px;
+    border-top:1px #0062AD solid;
+ }
+  
+.r_acc_bloc_infos .dern_connex{
+	margin:auto;
+    width: 160px;
+    padding-bottom:10px;
+    padding-left:30px;
+   }
+.bouton_deco
+{	
+	margin: 0 0.2em 0 0em ;
+	padding: 3px 15px 3px 15px;
+	background-color: #C84294;
+	border-radius : 8px 8px 0 0;
+	display: inline-block;
+}
+
+.bouton_deco a {
+	color: white;
+	border-bottom: 1px dotted;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.baselinebleue a {
+    margin: 0 1.7em;
+}
+
+/*Bloc d'informations sur la page Mes informations personnelles*/
+/*Ne pas mettre des border sur les liens pour déployer dans la page "informations personnelles*/
+#as_info_perso_page .r_pre_bloc div#bloc_masituation a,
+#as_info_perso_page .r_pre_bloc div#bloc_macam a,
+#as_info_perso_page .r_pre_bloc div#bloc_macomplsante a,
+#as_info_perso_page .r_pre_bloc div#bloc_mescoord a,
+#as_info_perso_page .r_pre_bloc div#bloc_codes_acces a,
+#as_info_perso_page .r_pre_bloc div#bloc_infos_bancaires a
+{
+border:0px;
+}
+.r_pre_bloc .flechePlierDeplier {
+	float :left;
+    height: 1.5em;
+    margin-right: 8px;
+    margin-top:-2px;
+    position: relative;
+    z-index: 2;
+}
+
+.bloc_infos_perso .r_pre_bloc h2 {
+    height: 20px;
+    padding-top: 5px;
+}
+.bloc_infos_perso ul li{
+	cursor: default;
+    list-style-type: none;
+    margin: 20px 10px;
+    /*color: #0062AD;*/
+    font-size:18px;
+    font-weight:normal;
+}
+
+.bloc_infos_perso .fleche_plie{
+	width:20px;
+	height:20px;
+}
+
+.bloc_infos_perso ul li a.plie{
+	border-radius: 10px;
+}
+
+.bloc_infos_perso ul li a.deplie{
+	border-radius: 10px 10px 0 0;
+}
+
+.bloc_infos_perso .bloc_deplie,
+.bloc_deplie{
+	display: block;
+}
+.bloc_infos_perso .bloc_plie,
+.bloc_plie{
+	display: none;
+}
+.bloc_infos_perso #bloc_contenu_infos_bancaires .tab-footer
+ {
+    background-color: #EEF5F9;
+}
+.bloc_infos_perso .r_pre_bloc h2.impair{
+	background-color: #357BB1;
+	min-height: 20px;
+}
+.bleu_clair h2#bloc_titre_infos_ALD.plie a,
+.bleu_clair h2{
+	color:#357BB1;
+	background-color: #BBDAF6;
+	min-height: 20px;
+}
+.coord_autorisations {
+	padding-left: 10px;
+}
+
+.coord_autorisations img {
+	width: 25px;
+	vertical-align: middle;
+}
+
+/*Style pour les blocs de mes informations perso */
+.bloc_infos_perso .content{
+	padding: 20px;
+	/*Options non obligatoire*/
+	background:white;
+	border: 1px solid lightblue; /*#B75190; /*#B75190*/
+    border-radius: 0px 0px 10px 10px;
+}
+.bloc_infos_perso .content h2,
+.bloc_infos_perso .content ul li,
+.bloc_infos_perso .content p
+/*,
+.bloc_infos_perso #bloc_contenu_infos_bancaires p,
+.bloc_infos_perso #bloc_contenu_macomplsante p,
+.bloc_infos_perso #bloc_contenu_infos_bancaires .tab-body #idCoordBancaires.tableau tbody tr td*/
+{
+	font-size:12.8px;
+	/*color: #000000;*/
+}
+
+h2#bloc_titre_infos_ALD a,
+.bloc_infos_perso .r_pre_bloc .content ul li a.r_btaide {
+    color: white;
+}
+
+.bloc_infos_perso .r_pre_bloc .content ul li a{
+	color:#C6649F;
+}
+
+
+.bloc_infos_perso .content ul li{
+	list-style-type : disc;
+	margin:5px;
+}
+
+.bloc_infos_perso .content ul li ul.sous_liste li{
+	list-style-type: square;
+}
+
+.dim_submit{
+	padding:6px 20px;
+}
+.bloc_confirm{
+margin-bottom:10px;
+}
+.info_legal{
+	font-size:11px;
+	 font-style: italic;
+}
+
+/*Tableau du relevé annuel*/
+#as_releve_annuel_prestation_page .impair{
+ line-height:1.5em;
+}
+
+#as_releve_annuel_prestation_page .tableau td {
+    border-bottom: 1px solid #E0F0FF;
+    color: #000000;
+}
+
+#as_releve_annuel_prestation_page .tableau td.image {
+    text-align: center;
+}
+
+#as_releve_annuel_prestation_page .tableau td.total{
+	text-align: right;
+	font-weight: bold;
+}
+#as_releve_annuel_prestation_page .tab-body table{
+	margin:0;
+}
+
+/** ALD */
+.infoALD a.r_btretour{
+	color:#A8407F;
+}
+.infoALD .txt_milieu{
+	float: left;
+    line-height: 1.5em;
+    margin-top: 20px;
+    width: 670px;
+}
+
+.tableau_adresse tr{
+	height: 28px;
+}
+
+.tableau_adresse td.label_adresse{
+	width: 150px;
+}
+
+.tableau_adresse input,
+.tableau_adresse select{
+	width: 100%;
+}
+
+.tableau_adresse .lieu_dit{
+	text-align: right;
+}
+
+.tableau_adresse input.c_lieu_dit{
+	width:140px;
+}
+
+

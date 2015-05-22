@@ -1,0 +1,475 @@
+/* prevention */
+.r_pre_bloc_droite {
+	margin: 0 10px;
+}
+
+.r_pre_bloc_droite h2 {
+	font-variant: small-caps;
+	margin-top:0;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	color: #357BB1;
+	font-weight: bold;
+}
+
+.r_pre_bloc_droite h3{
+	color: #357BB1;
+	font-size: 1.0em;
+}
+
+.r_pre_bloc_droite ul{
+	padding-left: 0;
+	list-style-position: inside;
+	color: #357BB1;
+}
+
+.r_pre_bloc_droite .contenu_liste{
+	color: black;
+}
+
+.r_pre_bloc_droite a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.r_pre_bloc {
+	margin: 10px 0;
+}
+
+.r_pre_bloc h2 {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 0 10px;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #357BB1;
+	font-variant: small-caps;
+}
+
+#as_reperes_prevention_page .r_pre_bloc h2{
+    height: 20px;
+    padding-top: 5px;
+}
+
+.r_pre_bloc h2 sup {
+	vertical-align: top;
+}
+
+.r_pre_bloc .bloc_benef h2{
+	color: #000000;
+	background: #BBDAF6;
+}
+
+.r_pre_bloc .boutonPlierDeplier{
+    float: right;
+    height: 1.5em;
+    margin-right: 8px;
+    margin-top: -22px;
+    position: relative;
+    z-index: 2;
+}
+
+.r_pre_bloc .boutonPlierDeplier:hover{
+	cursor : pointer;
+}
+
+.r_pre_bloc h2.plie{
+	border-radius: 10px;
+}
+
+.r_pre_bloc h2.deplie{
+	border-radius: 10px 10px 0 0;
+}
+
+.r_pre_bloc .bloc_deplie{
+	display: block;
+}
+
+.r_pre_bloc .bloc_plie{
+	display: none;
+}
+
+.r_pre_bloc .bloc_sousrubrique img {
+	float: left;
+	margin-right: 10px;
+}
+
+.r_pre_bloc .bloc_sousrubrique {
+	padding: 10px 10px 10px 10px;
+	border: 1px #357BB1 solid;
+	border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	font-size: 0.9em;
+	overflow: hidden;
+	background_color:#eef5f9;
+}
+
+.r_pre_bloc .bloc_benef .bloc_sousrubrique {
+	border: 1px solid #BBDAF6;
+	background-color: #eef5f9;
+}
+
+.r_pre_bloc .bloc_benef .bloc_sousrubrique ul, .r_pre_bloc .bloc_benef .bloc_sousrubrique ol{
+	 margin: 0 0 10px 17px;
+}
+
+.blocformfond .r_pre_bloc .bloc_benef li{
+line-height: 1.5em;
+    list-style-type: disc;
+    margin-left: 0;
+    vertical-align: middle;
+    }
+.r_pre_bloc .bloc_benef .bloc_sousrubrique .bloc_type_benef {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color:#eef5f9;
+}
+
+.r_pre_bloc .bloc_sousrubrique .categorie {
+	font-weight: bold;
+	margin: 1em 0 0.5em;
+	display: block;
+}
+
+.r_pre_bloc .bloc_assure li, .r_pre_bloc .bloc_benef li{
+	margin-left: 100px;
+	list-style: none;
+}
+
+.r_pre_titre_page {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.1em;
+	padding:0;
+	color: #357BB1;
+	font-weight: bold;
+}
+
+.r_pre_url_retour {
+	padding: 10px;
+}
+
+.r_pre_bloc_cardio {
+	margin: 30px 30px 10px 0;
+	width: 40%;
+	float: left;
+}
+
+.r_pre_bloc_cardio h2 {
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0 10px;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #357BB1;
+}
+
+.r_pre_bloc_cardio .bloc_sousrubrique {
+	padding: 10px 10px 10px 10px;
+	border: 1px #357BB1 solid;
+	border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+
+#as_risque_cardio_page .erreurTitre {
+	display: none;
+}
+
+#as_risque_cardio_page h2 {
+	margin-top: 0;
+	clear: both;
+	background-image: url(../images/refonte/prevention/picto_casecochee.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 7px 0 4px 2em;
+	color: #0062AD;
+	font-size: 1.1em;
+}
+
+#as_risque_cardio_page h5 {
+	color: #B75190;
+	font-size: 1.2em;
+}
+
+#as_risque_cardio_page h1 img {
+	vertical-align : text-bottom;
+	margin-right: 10px;
+}
+
+/* #as_risque_cardio_page h2 {
+	margin-top: 0;
+	clear: both;
+	background-image: url(../images/refonte/prevention/picto_casecochee.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 2em;
+	color: black;
+	font-size: 1.2em;
+} */
+
+.r_pre_bloc_cardio_rubrique {
+	margin: 10px 30px 10px 0;
+	width: 100%;
+}
+
+.r_pre_bloc_cardio_rubrique h2 {
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0 10px;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #357BB1;
+}
+
+.r_pre_bloc_cardio_rubrique .bloc_sousrubrique {
+	padding: 10px 10px 10px 10px;
+	border: 1px #357BB1 solid;
+	border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+
+.r_pre_bloc_cardio_encadre {
+	padding: 10px 10px 10px 10px;
+	border: 1px #0062AD solid;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	font-size: 0.9em;
+	overflow: hidden;
+	margin: 30px 0;
+}
+
+.r_pre_bloc_cardio_encadre h2 {
+	margin-top: 0;
+	clear: both;
+	background-image: url(../images/refonte/prevention/picto_casecochee.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 7px 0 4px 2em;
+	color: #0062AD;
+	font-size: 1.1em;
+}
+
+.r_pre_bloc_cardio_encadre #imgTest {
+	vertical-align: middle;
+}
+
+.r_pre_cardio_table {
+	border-collapse : separate;
+	width: 100%;
+	border-spacing: 0;
+	border-right: 1px #357BB1 solid;
+	border-top: 1px #357BB1 solid;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.r_pre_cardio_table td {
+	border-left: 1px #357BB1 solid;
+	border-bottom: 1px #357BB1 solid;
+	padding: 5px;
+}
+
+.r_pre_cardio_table th {
+	border-left: 1px #357BB1 solid;
+	border-bottom: 1px #357BB1 solid;
+	padding: 5px;
+	color: #0062AD;
+}
+
+.r_pre_cardio_table th:first-child { 
+	border-radius: 10px 0 0 0;
+	-webkit-border-radius: 10px 0 0 0;
+	-moz-border-radius: 10px 0 0 0;
+	background-color: #c9e9f6;
+}
+
+.r_pre_cardio_table td:first-child { 
+	background-color: #c9e9f6;
+}
+
+.r_pre_cardio_table tr:last-child td:first-child { 
+	border-radius: 0 0 0 10px;
+	-webkit-border-radius: 0 0 0 10px;
+	-moz-border-radius: 0 0 0 10px;
+}
+
+.r_pre_cardio_table th:last-child { 
+	border-radius: 0px 10px 0 0;
+	-webkit-border-radius: 0 10px 0 0;
+	-moz-border-radius: 0 10px 0 0;
+}
+
+.r_pre_cardio_table tr:last-child td:last-child { 
+	border-radius: 0px 0 10px 0;
+	-webkit-border-radius: 0 0 10px 0;
+	-moz-border-radius: 0 0 10px 0;
+}
+
+.r_pre_questionnaire {
+	list-style-type: decimal;
+	padding : 10px;
+}
+
+.r_pre_questionnaire .r_pre_reponses {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.r_pre_questionnaire .r_pre_reponses label {
+	margin-left: 2em;
+}
+
+.r_pre_source {
+	font-size: 0.85em;
+}
+
+#r_pre_liste_themes {
+	margin: 0 0 10px 2em;
+	color: #0062AD;
+	font-weight: bold;
+}
+
+#as_risque_cardio_page .colonne_info_droite {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+#as_risque_cardio_page .r_pre_bloc_droite {
+	background-image: url(../images/refonte/prevention/vignettebas.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 22px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#as_risque_cardio_page .r_pre_bloc_droite h2 {
+	background-color: #0062AD; 
+	padding: 10px 5px 10px 5px; 
+	color: white; 
+	font-family: helvetica; 
+	font-weight: bold; 
+	border-radius: 10px 0 0 0;
+	-webkit-border-radius: 10px 0 0 0;
+	-moz-border-radius: 10px 0 0 0;	
+	background: #0062AD;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#357BB1), to(#0062AD));
+	background: -webkit-linear-gradient(#357BB1, #0062AD);
+	background: -moz-linear-gradient(#357BB1, #0062AD);
+	background: -ms-linear-gradient(#357BB1, #0062AD);
+	background: -o-linear-gradient(#357BB1, #0062AD);
+	background: linear-gradient(#357BB1, #0062AD);
+	-pie-background: linear-gradient(#357BB1, #0062AD); 
+	margin: 0;
+}
+
+#as_risque_cardio_page .r_pre_bloc_droite p {
+	background-color: white;
+	border-left: solid 1px #0062AD; 
+	border-right: solid 1px #0062AD; 
+	margin: 0; 
+	padding : 10px; 
+}
+
+#as_risque_cardio_page .r_pre_bloc_droite ul {
+	background-color: white;
+	border-left: solid 1px #0062AD; 
+	border-right: solid 1px #0062AD; 
+	margin: 0; 
+	padding : 10px; 
+}
+
+.r_pre_menu {
+	list-style-type: none;
+	margin: 20px 0 0 0;
+	float: left;
+	width: 100%;
+}
+
+
+.r_pre_menu li {
+	padding: 1px 10px;
+	border-left: solid 5px #C84294;
+	font-weight: bold;
+}
+
+.r_pre_menu li.enCours {
+	padding-left: 0px;
+}
+
+.r_pre_menu li.enCours div {
+	float: left;
+	border-style: solid;
+	border-width: 7px 0px 7px 7px;
+	width: 0px;
+	height: 0px;
+	border-color: transparent transparent transparent #C84294;
+	padding: 0;
+	background-color: transparent;
+	margin-right: 3px;
+}
+
+.r_pre_liste_simple {
+	padding-left: 2em;
+	font-weight: bold;
+	color: #0062AD;
+}
+
+.r_pre_liste_simple li {
+	margin-top: 1em;
+}
+
+.r_pre_liste_simple span{
+	font-weight: normal;
+	color: black;
+}
+
+.r_pre_liste_simple a{
+	color: black;
+	text-decoration: none;
+}
+
+.r_pre_souligne_rose {
+	border-bottom : solid 2px #B75190;
+}
+
+.r_pre_info {
+	float:left;
+	width: 50px;
+	height: 3em;
+}
+
+.r_pre_bleu_gras {
+	color: #0062AD;
+	font-weight: bold;
+}
+
+.r_pre_bleu_gras a {
+	text-decoration: none;
+}
+
+.r_pre_benefs_enfant {
+	font-weight: bold;
+}
+.r_pre_liste_sophia li {
+	padding-left:30px;
+}

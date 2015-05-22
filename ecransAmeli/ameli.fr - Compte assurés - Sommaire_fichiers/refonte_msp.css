@@ -1,0 +1,85 @@
+.r_msp_prado_image_push_1 {
+	background: url(../images/refonte/prado/enceinte_bleu.png);
+    height: 35px;
+    margin-left: 10px;
+    width: 26px;
+}
+
+.r_msp_prado_titre_push_1 {
+	background: none repeat scroll 100% 100% #005ca9;
+	border-color: #4186bf;
+    border-radius: 10px 0 10px 0;
+	-webkit-border-radius: 10px 0 10px 0;
+	-moz-border-radius: 10px 0 10px 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    height: 15px;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    padding: 10px;
+    position: relative;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 10;
+}
+
+.r_msp_prado1 {
+	border-color: #4186bf;
+	border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px 10px;
+    color: #4186bf;
+    white-space: nowrap;
+	position: relative;
+	z-index: 1;
+}
+
+.r_msp_prado_image_push_2 {
+    background-image: url("../images/refonte/prado/enceinte_rouge.png");
+    height: 38px;
+    margin-left: 10px;
+    width: 23px;
+}
+
+.r_msp_prado_titre_push_2 {
+    background: none repeat scroll 100% 100% #e2017b;
+    border-color: #4186BF;
+    border-radius: 10px 0 10px 0;
+	-webkit-border-radius: 10px 0 10px 0;
+	-moz-border-radius: 10px 0 10px 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    height: 15px;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    padding: 10px;
+    position: relative;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 10;
+}
+
+.r_msp_prado2 {
+    background: none repeat scroll 100% 100% #FCE8F3;
+    border-color: #E9409B;
+    border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px 10px;
+    color: #E9409B;
+    white-space: nowrap;
+	position: relative;
+	z-index: 1;
+}
+
+.blocform .r_msp_label {
+	width:100%;
+	text-align: left;
+}

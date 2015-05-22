@@ -1,0 +1,264 @@
+.r_cnx_page{
+	position: relative;
+	margin-top: 45px;
+}
+
+.r_cnx_maintenance {
+	margin-left: 125px;
+	margin-right: 62px;
+	width: 713px;
+}
+
+.r_cnx_colonneG{
+	margin-left: 125px;
+	width: 428px;
+}
+
+.r_cnx_page h1{
+    color: #B75190;
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    padding-top: 1em;
+}
+
+.r_cnx_page h2{
+    color: #B75190;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: -90px;
+}
+
+.r_cnx_page ul{
+    color: #B75190;
+    list-style: square inside;
+    margin-bottom: 20px;
+}
+
+.r_cnx_page li span{
+	color: black;
+}
+
+.r_cnx_colonneD{
+	position: absolute;
+	width: 285px;
+	left: 553px;
+	bottom: 0px;
+}
+
+.r_cnx_cadre_rose_amelie {
+	width: 388px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.r_cnx_cadre_gris_amelie {
+	top: 0px;
+	left: 0px;
+	padding-left: 110px;
+	padding-right: 3px;
+	padding-bottom: 20px;
+}
+.r_cnx_cadre_gris_amelie li {
+	line-height: 1.5em;
+}
+.r_cnx_amelie {
+	height: 239px;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.r_cnx_lien_amelie {
+	color: #B75190;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+.r_cnx_lien_amelie:hover {
+	color: #B75190;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+.r_cnx_form {
+	overflow: hidden;
+}
+
+.r_cnx_label {
+	color: #C84294;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.r_cnx_span_validation {
+	float: left;
+	vertical-align: middle;
+	position: relative;
+}
+
+.r_cnx_aidelien {
+	/*color: darkGrey;*/
+	color:#6b6b6b;
+	text-decoration: none;
+	font-size: 0.8em;
+	margin-top: 0.4em;
+}
+
+.r_cnx_aidelien:hover {
+	text-decoration: none;
+}
+
+.r_cnx_aidelien_gauche {
+	color: darkGrey;
+	float: left;
+	text-decoration: none;
+	font-size: 0.8em;
+	margin-top: 0.4em;
+}
+
+.r_cnx_aidelien_gauche:hover {
+	text-decoration: none;
+	color: darkGrey;
+}
+
+.r_cnx_aidelien_droite {
+	color: darkGrey;
+	font-size: 0.8em;
+	margin-top: 1em;
+	float: right;
+}
+
+.r_cnx_aidelien_droite:hover {
+	color: darkGrey;
+}
+
+.r_cnx_champ_220 {
+	border: solid 1px #C84294;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	font-size: 1em;
+	float:left;
+	width: 220px;
+	margin-right: 10px;
+	margin-top: 0.2em;
+}
+
+.r_cnx_champNir {
+	float: left;
+	margin-right: 10px;
+    width: 221px;
+}
+
+.r_cnx_champNirCase {
+    border: 1px solid #B75190;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+    float: left;
+    font-size: 1.1em;
+    margin-top: 0.2em;
+    text-align: center;
+    width: 1em;
+}
+
+.r_cnx_champNir1CaseColle {
+    border: 1px solid #B75190;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+    float: left;
+    font-size: 1.1em;
+    margin-left: 0.25em;
+    margin-right: -1px;
+    margin-top: 0.2em;
+    text-align: center;
+    width: 1em;
+}
+
+.r_cnx_champNir2CaseColle {
+    border: 1px solid #B75190;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+    float: left;
+    font-size: 1.1em;
+    margin-right: -1px;
+    margin-top: 0.2em;
+    text-align: center;
+    width: 1em;
+}
+
+.r_cnx_msp img {
+	width: 185px;
+	margin-top: 5px;
+	float: left;
+}
+
+.r_cnx_msp p {
+	font-size: 0.85em;
+	float: left;
+}
+
+.r_cnx_msp a {
+	border-bottom: none;
+}
+
+.r_cnx_msp a:hover {
+	border-bottom: none;
+}
+
+.r_cnx_liste_regimes {
+	margin-left: 125px;
+	width: 713px;
+	font-size: 0.8em;
+	color: darkGrey;
+}
+
+.r_cnx_liaisonMSP {
+	border: 1px solid #B75190;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	margin-top: 10px;
+	float:left;
+}
+
+.r_cnx_liaisonMSP img {
+	margin-right:30px;
+	width: 150px;
+	height: 30px;
+}
+
+.r_cnx_liaisonMSP a {
+	color: darkGrey;
+	font-size: 0.8em;
+	vertical-align: text-top;
+}
+
+.r_cnx_titlebar_error {
+	font-size: 1.4em;
+    font-weight: bold;
+    font-variant: small-caps; 
+    overflow: hidden;
+    border-bottom: 1px solid;
+    padding-left: 25px;
+    position: relative;
+    width: 680px;
+    color: #0062AD;
+}
+
+.r_cnx_msp_liaison_cree {
+	height : 2.4em;
+	margin-bottom : 10px;
+	vertical-align : middle;
+}
+
+/* style pour eviter de separer une ancre sur 2 lignes*/
+.nowrap{
+	white-space:nowrap;
+}

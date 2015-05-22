@@ -1,0 +1,249 @@
+/* Page d'accueil */
+
+.r_acc_bloc {
+	width: 320px;
+	margin: 0 30px 10px 0;
+}
+
+#as_vos_demandes_page .r_acc_bloc {
+	width: 410px;
+	margin: 0 30px 30px 0;
+}
+
+.r_acc_bloc.rose {
+}
+
+.r_acc_colonne_gauche {
+	float:left;
+	width:350px;
+}
+
+.r_acc_colonne_droite {
+	float:left;
+	width:320px;
+}
+
+.r_acc_bloc h1 {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 0 10px;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+}
+
+.r_acc_bloc.rose h1{
+	background: #C84294;
+	font-variant: small-caps;
+}
+
+.r_acc_bloc.bleu h1{
+	background: #357BB1;
+	font-variant: small-caps;
+}
+
+.r_acc_bloc .bloc_sousrubrique {
+	padding: 10px 10px 10px 10px;
+	border: 1px #C84294 solid;
+	border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	font-size: 0.9em;
+	font-family: Helvetica,Arial,FreeSans,sans-serif;
+	line-height: 1.5em;
+}
+
+.r_acc_bloc .bloc_sousrubrique ul {
+	list-style: none;
+}
+
+#as_vos_demandes_page .r_acc_bloc .bloc_sousrubrique ul li {
+	padding-bottom: 6px;
+}
+
+.r_acc_bloc .bloc_sousrubrique img {
+	vertical-align: middle;
+}
+
+.r_acc_bloc .bloc_sousrubrique li a {
+	color: #000000;
+	border-bottom: none;
+}
+
+.r_acc_bloc .bloc_sousrubrique li a:hover {
+	color: #000000;
+	border-bottom: solid 1px;
+}
+
+.r_acc_bloc .bloc_sousrubrique .lienAccueilSitemap {
+	font-weight : bold;
+	margin-left : 100px;
+	color : #C84294;
+	border-bottom: none;
+}
+
+.r_acc_bloc .bloc_sousrubrique a.lienAccueilSitemap:hover {
+	font-weight : bold;
+	margin-left : 100px;
+	border-bottom: solid 1px;
+}
+
+#as_vos_demandes_page .r_acc_bloc .bloc_sousrubrique a {
+	color: #0062AD;
+}
+
+.r_acc_bloc.rose .bloc_sousrubrique{
+	border-color: #C84294;
+}
+
+.r_acc_bloc.bleu .bloc_sousrubrique{
+	border-color: #357BB1;
+}
+
+.r_acc_bloc.bleu .bloc_sousrubrique p{
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.r_acc_push_prevention {
+    border-bottom: 2px solid #357BB1;
+    position: relative;
+    width: 320px;
+    /*margin-bottom: 10px;*/
+    min-height: 60px;
+    margin: -10px 0px 10px 0;
+}
+
+.r_acc_push_prevention img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.r_acc_push_prevention .sousRubrique{
+    margin-left: 65px;
+    width: 255px;
+}
+
+.r_acc_push_prevention .sousRubrique h2{
+    font-size: 1em;
+}
+
+.r_acc_push_prevention .sousRubrique .lienService{
+	float: right;
+	border-bottom: dotted 1px;
+}
+
+.r_acc_push_prevention .sousRubrique .lienService:hover{
+	border-bottom: solid 1px;
+}
+
+.r_acc_push_prevention .sousRubrique p{
+    font-size: 0.85em;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 1.5em;
+}
+
+.r_acc_bloc_liens {
+	margin-bottom: 15px;
+	padding: 10px 10px 10px 10px;
+	border: 1px #357BB1 solid;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 168px;
+	background-color: white;
+}
+
+.r_acc_bloc_liens h1 {
+	font-variant: small-caps;
+	margin-top:0;
+	margin-bottom: 10px;
+	color: #357BB1;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.r_acc_bloc_liens ul {
+	list-style-image: url(../images/as/puce_losange.png);
+	list-style-position: inside; 
+	/* padding-left: 1em;*/
+	line-height: 1.5em;
+}
+
+.r_acc_bloc_liens a {
+	color : #000000;
+	text-decoration : none;
+}
+
+.r_acc_bloc_liens a:hover {
+	text-decoration : none;
+}
+
+.href_bleu a {
+	color : #0062AD;
+}
+
+.r_acc_vignette {
+	margin-bottom: 15px;
+	width: 162px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.r_acc_vignette img {
+	max-width: 162px;
+}
+
+.r_acc_vignette a {
+	border-bottom: none;
+}
+
+.r_acc_vignette a:hover {
+	border-bottom: none;
+}
+
+.r_acc_vignette h2 {
+	font-variant: small-caps;
+	margin-top:0;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	color: #357BB1;
+	font-weight: bold;
+}
+
+.r_acc_fond_rose {
+	background-color: #C84294;
+}
+
+.r_acc_bonjour {
+	width: 556px;
+	white-space: nowrap;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.r_pro_vignette_droit {
+	width: 162px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.r_pro_vignette_droit h3 {
+	font-size: 1.1em;
+	color: #25496D;
+	margin-top: 0;
+}
+
+.r_acc_vignette .lienTexteDansVignette{
+	border-bottom: 1px dotted;
+}

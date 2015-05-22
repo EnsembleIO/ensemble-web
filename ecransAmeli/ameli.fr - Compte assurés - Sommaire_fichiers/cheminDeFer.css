@@ -1,0 +1,135 @@
+
+/**** Css pour l'affichage d'un chemin de fer ***/
+.cheminDeFer3 {
+	height:45px;
+    margin:12px 0 15px 0;
+	padding:0;
+	border:none;
+	font-size:11px;
+}
+
+#as_suiviAT_page .cheminDeFer3 .troisEtapes{
+    margin-left : auto;
+    margin-right : auto;
+    width: 390px;
+}
+#as_suiviAT_page .cheminDeFer3 .quatreEtapes{
+    margin-left : auto;
+    margin-right : auto;
+    width: 520px;
+}
+
+.cheminDeFer3 h4{
+	display:none;
+}
+.cheminDeFer3 .item , .cheminDeFer3 .itemSelect{
+    float:left;
+	margin:0;
+	padding:0;
+}
+.cheminDeFer3 .item table , .cheminDeFer3 .itemSelect table{
+	height:45px;
+	padding:0;
+	border:0;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.cheminDeFer3 .item .bordGauche,.cheminDeFer3 .item .bordDroit,.cheminDeFer3 .itemSelect .bordGauche,.cheminDeFer3 .itemSelect .bordDroit{
+	width:10px;
+	height:45px;
+	border:0;
+	margin:0;
+	padding:0;
+}
+/** fond gris sans contour */
+.cheminDeFer3 .item .bordGauche{
+	background: url(../images/as/jalon_gauche_normal.png) no-repeat left;
+}
+.cheminDeFer3 .item .bordDroit{
+	background: url(../images/as/jalon_droite_normal.png) no-repeat right;
+}
+.cheminDeFer3 .item .centre{
+	background: url(../images/as/jalon_centre_normal.png) repeat-x;
+	color: #A8407F;
+	background-color: #EDEDED; 	/* Mode dégradé pour le cas où les images sont désactivées */
+	width:100px;
+}
+/** fond gris avec contour */
+.cheminDeFer3 .item .avecfocus .bordGauche{
+	background: url(../images/as/jalon_gauche_normal_select.png) no-repeat left;
+}
+.cheminDeFer3 .item .avecfocus .bordDroit{
+	background: url(../images/as/jalon_droite_normal_select.png) no-repeat right;
+}
+.cheminDeFer3 .item .avecfocus .centre{
+	background: url(../images/as/jalon_centre_normal_select.png) repeat-x;
+}
+/** fond rose avec contour */
+.cheminDeFer3 .itemSelect .bordGauche{
+	background: url(../images/as/jalon_gauche_actif_select.png) no-repeat left;
+}
+.cheminDeFer3 .itemSelect .bordDroit{
+	background: url(../images/as/jalon_droite_actif_select.png) no-repeat right;
+}
+.cheminDeFer3 .itemSelect .centre{
+	background: url(../images/as/jalon_centre_actif_select.png) repeat-x;
+	color: white;
+	width: 100px;
+	background-color: #C84294; /* Mode dégradé pour le cas où les images sont désactivées */
+}
+/** fond rose sans contour */
+.cheminDeFer3 .itemSelect .sansfocus .bordGauche{
+	background: url(../images/as/jalon_gauche_actif_nonselect.png) no-repeat left;
+}
+.cheminDeFer3 .itemSelect .sansfocus .bordDroit{
+	background: url(../images/as/jalon_droite_actif_nonselect.png) no-repeat right;
+}
+.cheminDeFer3 .itemSelect .sansfocus .centre{
+	background: url(../images/as/jalon_centre_actif_nonselect.png) repeat-x;
+}
+.cheminDeFer3 .item .centre,.cheminDeFer3 .itemSelect .centre{
+	height:45px;
+    text-align:center;
+	border:0;
+	margin:0;
+	padding:0 5px;	
+	line-height:11px;
+	font-weight:bold;
+}
+.cheminDeFer3 .item .centre a{
+	/* color:black; */
+	color: #A8407F;
+	border-bottom: 1px dotted;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 15px;
+}
+.cheminDeFer3 .itemSelect .centre a{
+	color: white;
+	border-bottom: 1px dotted;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 15px;
+}
+.cheminDeFer3 .item .centre a:hover, .cheminDeFer3 .itemSelect .centre a:hover{
+	/* color:black; */
+	border-bottom: 1px solid;
+	text-decoration:none;
+}
+
+.cheminDeFer3 .linkBlock{
+	display: block;
+	width: 100%;
+	height: 100%;	
+	border-bottom: 0;
+	padding: 0px 5px 0px 0px;
+}
+.cheminDeFer3 .linkBlock:hover{
+	border-bottom: 0;	
+	text-decoration:underline !important;
+}
+.cheminDeFer3 .item .centre .contenuPresent{
+	/* color: black; */
+	color: #A8407F;
+}
+
