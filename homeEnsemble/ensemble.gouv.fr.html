@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///Users/alex/ensemble-web/homeEnsemble/ensemble.gouv.fr.html -->
+<html ng-app="ddsApp" lang="fr" itemscope="" itemtype="http://schema.org/Article" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style><script type="text/javascript" async="" defer="" src="./ensemble.gouv.fr_files/piwik.js"></script><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title ng-bind="$state.current.data.pageTitle + &#39;Simulez toutes vos aides en ligne - mes-aides.gouv.fr&#39;" class="ng-binding">Simulez toutes vos aides en ligne - mes-aides.gouv.fr</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="Mes-aides vous permet de simuler pour votre foyer les principales prestations sociales auxquelles vous avez droit, en un seul questionnaire">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mesaides">
+    <meta name="twitter:title" content="mes-aides.gouv.fr, simulez toutes vos aides en ligne">
+    <meta name="twitter:description" content="Mes-aides vous permet de simuler pour votre foyer les principales prestations sociales auxquelles vous avez droit, en un seul questionnaire">
+    <meta name="twitter:image" content="http://mes-aides.gouv.fr/img/logo_marianne_share.jpeg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="mes-aides.gouv.fr, simulez toutes vos aides en ligne">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://mes-aides.gouv.fr/">
+    <meta property="og:image" content="http://mes-aides.gouv.fr/img/logo_marianne_share.jpeg">
+    <meta property="og:description" content="Mes-aides vous permet de simuler pour votre foyer les principales prestations sociales auxquelles vous avez droit, en un seul questionnaire">
+    <meta property="og:site_name" content="Mes-aides">
+
+    <meta name="fragment" content="!">
+
+    <script type="text/javascript">
+    if (window.location.hostname === 'mes-aides.gouv.fr') {
+      var _paq = _paq || [];
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u='//stats.data.gouv.fr/';
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 9]);
+        var d=document, g=d.createElement('script'),
+        s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true;
+        g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    }
+    </script>
+    
+
+    <link rel="stylesheet" href="https://mes-aides.gouv.fr/styles/0bdfb39f.front.css">
+
+    <!--<base href="/">--><!--<base href=".">--><base href=".">
+  <style type="text/css"></style></head>
+  <body class="body-front ng-scope" ng-controller="BodyCtrl" ng-class="{&#39;has-intro&#39;: showIntro}" style="">
+    <!--[if lt IE 10]>
+    <div class="browsehappy text-center">
+      Vous utilisez un navigateur web obsolète et donc <strong>non sécurisé</strong>.
+      <br>Cette application ne fonctionne pas sur celui-ci.
+      <br><a href="http://browsehappy.com/">Mettez à jour votre navigateur</a> pour l'utiliser.
+      <br>Si vous utilisez un poste fourni par votre employeur, demandez à votre administrateur d'installer une version récente de <a href="https://www.mozilla.org/fr/firefox/new/">Mozilla Firefox</a> ou <a href="http://www.google.com/chrome/">Google Chrome</a>.
+      <br>Si vous êtes sous Windows XP (SP2), Vista, 7 ou supérieur, l'installation de Chrome peut être réalisée de manière autonome
+      <br>sans droits d'administration sur votre poste,
+      <a href="https://www.google.com/chrome/browser/index.html?standalone=1">faites-le vous-même</a> !
+    </div>
+    <![endif]-->
+
+    <header role="banner">
+      <nav role="navigation" class="main-navbar" ng-class="{&#39;has-intro&#39;: showIntro}" style="">
+        <div class="intro-holder">
+          <!-- ngIf: showIntro -->
+        </div>
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a ui-sref="home" class="navbar-brand logo hidden-xs" title="Accueil - mes-aides.gouv.fr" href="file:///Users/alex/ensemble-web/homeEnsemble/ensemble.gouv.fr_files/ensemble.gouv.fr.html"><img src="./ensemble.gouv.fr_files/logo_marianne.png" alt="Accueil - ensemble.gouv.fr"></a></li>
+            <li><a ui-sref="home" class="navbar-brand title" title="Accueil - ensemble.gouv.fr" href="file:///Users/alex/ensemble-web/homeEnsemble/ensemble.gouv.fr_files/ensemble.gouv.fr.html">ensemble.gouv.fr</a></li>
+          </ul>
+          <loading-spinner><div class="loading-spinner ng-hide" ng-show="loading"><div class="loading-spinner-icon"></div></div></loading-spinner>
+        </div>
+        <div class="logo-beta">Bêta</div>
+      </nav>
+    </header>
+
+    <div class="content">
+      <!-- uiView: undefined --><ui-view autoscroll="true" class="ng-scope"><div class="homepage-call-to-action desktop hidden-xs ng-scope" style="background-image: url(file://localhost/Users/alex/ensemble-web/img/homepage.jpg)">
+  <div class="container">
+    <div class="jumbotron">
+<h1>Réseau solidaire</h1> 
+
+      <p>
+        Ensemble vous permet de coordonner et d’organiser la vie à domicile&nbsp;!
+      </p>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="text-right">
+            <a class="btn btn-primary btn-lg" ui-sref="foyer.demandeur" ng-click="newSituation()" href="https://mes-aides.gouv.fr/foyer/demandeur">Accéder à votre ensemble</a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <p style="font-size: 19px">
+            <em>… et retrouver tous les acteurs proche de chez vous</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="homepage-call-to-action mobile visible-xs ng-scope">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Simulez <em>toutes</em> vos aides en ligne&nbsp;!</h1>
+
+      <p>
+        Vous souhaitez savoir si vous pouvez bénéficier du RSA, d'une Couverture Maladie Universelle Complémentaire, d'une Allocation Logement, ou de toute autre Prestation Familiale ou Sociale&nbsp;?
+      </p>
+
+      <div class="text-center">
+        <a class="btn btn-primary btn-lg" ui-sref="foyer.demandeur" ng-click="newSituation()" href="https://mes-aides.gouv.fr/foyer/demandeur">Commencer la simulation</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="liste-organismes ng-scope">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+        <img ng-src="/img/logo_assurance_maladie.png" alt="Assurance maladie" src="./ensemble.gouv.fr_files/logo_assurance_maladie.png">
+      </div>
+      <div class="col-md-2">
+        <img ng-src="/img/logo_ass.png" alt="ASS" src="./ensemble.gouv.fr_files/logo_ass.png">
+      </div>
+      <div class="col-md-2">
+        <img ng-src="/img/logo_aspa.png" alt="ASPA" src="./ensemble.gouv.fr_files/logo_aspa.png">
+      </div>
+      <div class="col-md-2">
+        <img ng-src="/img/logo_caf.png" alt="CAF" src="./ensemble.gouv.fr_files/logo_caf.png">
+      </div>
+      <div class="col-md-2">
+        <img ng-src="/img/logo_education_nationale.png" alt="ASPA" src="./ensemble.gouv.fr_files/logo_education_nationale.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container ng-scope">
+  <div class="frame-aides-homepage">
+    <h2 class="text-center">Les aides simulées</h2>
+    <hr>
+    <div class="row">
+      <!-- ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 --><div class="clearfix ng-scope" ng-if="$index % 3 === 0"></div><!-- end ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_cmu.png" alt="" src="./ensemble.gouv.fr_files/logo_cmu.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Aide pour une Complémentaire Santé</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L’aide pour l’acquisition d’une assurance complémentaire santé, dite ACS, est une aide financière pour payer une complémentaire santé (exemple : une mutuelle).</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_caf.png" alt="" src="./ensemble.gouv.fr_files/logo_caf.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Allocations Familiales</h3>
+            </div>
+          </div>
+          <p class="ng-binding">Les allocations familiales sont versées, sans condition de ressources, aux personnes ayant au moins 2 enfants de moins de 20 ans à charge. Le montant des prestations dépend du nombre d’enfants à charge et de leur âge.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_caf.png" alt="" src="./ensemble.gouv.fr_files/logo_caf.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Aides au Logement</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L'aide au logement est une aide financière destinée à réduire le montant de votre loyer ou votre mensualité d’emprunt immobilier. Elle est attribuée selon la nature de votre logement et la composition de votre famille.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 --><div class="clearfix ng-scope" ng-if="$index % 3 === 0"></div><!-- end ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_caf.png" alt="" src="./ensemble.gouv.fr_files/logo_caf.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Allocation de Soutien Familial</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L’ASF est versée par la CAF ou la MSA au parent qui élève seul son enfant ou à la personne qui a recueilli un enfant, qu’elle vive seule ou en couple.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_aspa.png" alt="" src="./ensemble.gouv.fr_files/logo_aspa.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Allocation Supplémentaire d’Invalidité</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L’allocation supplémentaire d’invalidité (Asi) est une prestation versée sous certaines conditions aux personnes invalides titulaires d’une pension de retraite ou d’invalidité qui n’ont pas atteint l’âge légal de départ à la retraite pour bénéficier de l’allocation de solidarité aux personnes âgées (Aspa)</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_aspa.png" alt="" src="./ensemble.gouv.fr_files/logo_aspa.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Allocation de Solidarité aux Personnes Âgées</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L’allocation de solidarité aux personnes âgées (Aspa) est une allocation destinée aux personnes âgées disposant de faibles revenus en vue de leur assurer un niveau minimum de ressources. Elle remplace le minimum vieillesse depuis 2006.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 --><div class="clearfix ng-scope" ng-if="$index % 3 === 0"></div><!-- end ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_ass.png" alt="" src="./ensemble.gouv.fr_files/logo_ass.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Allocation de Solidarité Spécifique</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L’allocation de solidarité spécifique (ASS) est une aide financière destinée aux personnes ayant épuisé leurs droits aux allocations chômage.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_education_nationale.png" alt="" src="./ensemble.gouv.fr_files/logo_education_nationale.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Bourse de collège</h3>
+            </div>
+          </div>
+          <p class="ng-binding">La bourse des collèges est une aide destinée à favoriser la scolarité des collégiens. Elle est versée sous conditions de ressources.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_education_nationale.png" alt="" src="./ensemble.gouv.fr_files/logo_education_nationale.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Bourse de lycée</h3>
+            </div>
+          </div>
+          <p class="ng-binding">La bourse des lycées est accordée, sous condition de ressources, à la famille d’un lycéen. Son montant dépend des ressources et des charges de la famille. Cette bourse peut être accompagnée de diverses primes (prime d’équipement, prime à la qualification, bourse au mérite au lycée, prime à l’internat...).</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 --><div class="clearfix ng-scope" ng-if="$index % 3 === 0"></div><!-- end ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_caf.png" alt="" src="./ensemble.gouv.fr_files/logo_caf.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Complément Familial</h3>
+            </div>
+          </div>
+          <p class="ng-binding">Le complément familial est versé, sous certaines conditions, aux personnes ayant au moins 3 enfants à charge.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_cmu.png" alt="" src="./ensemble.gouv.fr_files/logo_cmu.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Couverture Maladie Universelle Complémentaire</h3>
+            </div>
+          </div>
+          <p class="ng-binding">La CMU-C est une protection complémentaire santé gratuite.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_caf.png" alt="" src="./ensemble.gouv.fr_files/logo_caf.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Prestation d’Accueil du Jeune Enfant - Allocation de base</h3>
+            </div>
+          </div>
+          <p class="ng-binding">L’allocation de base vous aide à assurer les dépenses liées à l’entretien et à l’éducation de votre enfant.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits --><div ng-repeat="droit in droits" class="ng-scope">
+        <!-- ngIf: $index % 3 === 0 --><div class="clearfix ng-scope" ng-if="$index % 3 === 0"></div><!-- end ngIf: $index % 3 === 0 -->
+        <div class="col-md-4">
+          <div class="row heading">
+            <div class="col-xs-2">
+              <img class="droit-logo" ng-src="/img/logo_rsa.png" alt="" src="./ensemble.gouv.fr_files/logo_rsa.png">
+            </div>
+            <div class="col-xs-10">
+              <h3 class="ng-binding">Revenu de Solidarité Active</h3>
+            </div>
+          </div>
+          <p class="ng-binding">Le RSA est destiné à assurer aux personnes disposant de faibles ressources un niveau minimum de revenu variable selon la composition de leur foyer.</p>
+        </div>
+      </div><!-- end ngRepeat: droit in droits -->
+    </div>
+  </div>
+</div></ui-view>
+    </div>
+
+    <footer class="main-footer" role="contentinfo">
+      <nav class="container">
+        <div class="col-md-3">
+          <h4>Mes aides</h4>
+          <ul class="list-unstyled">
+            <li><a ui-sref="a_propos" href="https://mes-aides.gouv.fr/a-propos">À propos</a></li>
+            <li><a ui-sref="cgu" href="https://mes-aides.gouv.fr/conditions-generales-d-utilisation">Mentions légales</a></li>
+            <li><a ui-sref="contribuez" href="https://mes-aides.gouv.fr/contribuez">Contribuez !</a></li>
+            <li><a ui-sref="faq" href="https://mes-aides.gouv.fr/faq">FAQ</a></li>
+            <li><a href="mailto:mes-aides@sgmap.fr">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 hidden-sm hidden-xs">
+          <h4>Partenaires</h4>
+          <ul class="list-unstyled">
+            <li><a target="_blank" href="http://service-public.fr/" title="service-public.fr - nouvelle fenêtre">service-public.fr</a></li>
+            <li><a target="_blank" href="http://ameli.fr/" title="ameli.fr - nouvelle fenêtre">ameli.fr</a></li>
+            <li><a target="_blank" href="http://www.caf.fr/" title="caf.fr - nouvelle fenêtre">caf.fr</a></li>
+            <li><a target="_blank" href="https://www.lassuranceretraite.fr/" title="lassuranceretraite.fr - nouvelle fenêtre">lassuranceretraite.fr</a></li>
+            <li><a target="_blank" href="http://www.modernisation.gouv.fr/le-sgmap" title="SGMAP - nouvelle fenêtre">SGMAP</a></li>
+            <li><a target="_blank" href="http://www.openfisca.fr/" title="OpenFisca - nouvelle fenêtre">OpenFisca</a></li>
+          </ul>
+        </div>
+        <div class="col-md-offset-4 col-md-3">
+          <ul class="list-unstyled">
+            <li><a target="_blank" href="https://twitter.com/mesaides" title="Suivez nous sur Twitter - nouvelle fenêtre"><i class="fa fa-twitter" aria-hidden="true"></i> Suivez-nous sur Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="./ensemble.gouv.fr_files/932a038b.vendor.js"></script>
+
+    <script src="./ensemble.gouv.fr_files/32d7e9ea.scripts.js"></script>
+  
+</body></html>
