@@ -1,0 +1,261 @@
+[
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGL6",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "1",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "ensemble:assurancemaladie",
+        "objectType": "organization",
+        "displayName": "Assurence Maladie"
+      },
+      "verb": "add",
+      "object": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "owner",
+        "displayName": "Création du compte ensemble"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGL7",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "2",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      },
+      "verb": "add",
+      "object": {
+        "id": "urn:ensemble:member:jean",
+        "objectType": "admin",
+        "displayName": "Ajout de l'administrateur"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGL8",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "3",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:souhail",
+        "objectType": "member",
+        "displayName": "Souhail"
+      },
+      "verb": "add",
+      "object": {
+        "id": "urn:ensemble:member:souahil",
+        "objectType": "contributor",
+        "displayName": "Ajout d(un contributeur"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGL9",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "4",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:suzy",
+        "objectType": "member",
+        "displayName": "Suzy"
+      },
+      "verb": "add",
+      "object": {
+        "id": "urn:ensemble:member:suzy",
+        "objectType": "contributor",
+        "displayName": "Ajout d(un contributeur"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGL-",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "5",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:suzy",
+        "objectType": "member",
+        "displayName": "Suzy"
+      },
+      "verb": "post",
+      "object": {
+        "id": "https://ensembleio.herokuapp.com/images/activity/visite-suzy.jpg",
+        "objectType": "photo"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGL_",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "6",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:jean",
+        "objectType": "member",
+        "displayName": "Jean"
+      },
+      "verb": "add",
+      "object": {
+        "id": "urn:ensemble:calendar:margaux",
+        "objectType": "rendezvous",
+        "displayName": "Votre agenda est créé"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGMA",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "7",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:souhail",
+        "objectType": "member",
+        "displayName": "Souhail"
+      },
+      "verb": "post",
+      "object": {
+        "id": "urn:ensemble:calendar:margaux",
+        "objectType": "rendezvous",
+        "displayName": "Rendez vous CHU le 6 Avril à 15:00 "
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGMB",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "8",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "ensemble:assurancemaladie",
+        "objectType": "organization",
+        "displayName": "Assurence Maladie"
+      },
+      "verb": "add",
+      "object": {
+        "id": "urn:ensemble:object",
+        "objectType": "tensiometer",
+        "displayName": "Votre tensiomètre a bien été ajouté "
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGMC",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "9",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "ensemble:assurancemaladie",
+        "objectType": "organization",
+        "displayName": "Assurence Maladie"
+      },
+      "verb": "post",
+      "object": {
+        "id": "urn:ensemble:calendar:margaux",
+        "objectType": "anniversary",
+        "displayName": "Joyeux anniversaire !"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  },
+  {
+    "_index": "hackathon",
+    "_type": "news",
+    "_id": "AU2Mxe1Rf4cn5mrduGMD",
+    "_score": 0.9459328,
+    "_source": {
+      "newsid": "10",
+      "published": "2014-12-17T12:45:00.000Z",
+      "actor": {
+        "id": "urn:ensemble:member:alex",
+        "objectType": "member",
+        "displayName": "Alex"
+      },
+      "verb": "request",
+      "object": {
+        "id": "urn:ensemble:member:alex",
+        "objectType": "contributor",
+        "displayName": "Ajout d'un contributeur"
+      },
+      "target": {
+        "id": "urn:ensemble:member:margaux",
+        "objectType": "member",
+        "displayName": "Margaux"
+      }
+    }
+  }
+]
