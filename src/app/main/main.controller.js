@@ -11,6 +11,10 @@ angular.module('ensembleWeb')
 
     $scope.url='https://ensembleio.herokuapp.com/images/people/';
 
+    $scope.professionnel = {
+     profession: 'Aide-soignant'
+   };
+
     $scope.comment = function(event) {
     $mdDialog.show(
       $mdDialog.alert()
